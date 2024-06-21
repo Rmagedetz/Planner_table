@@ -48,7 +48,7 @@ def login():
 
 def show_main_page():
     # Заголовок дашборда
-    st.title(" :moneybag: PowerDash")
+    st.title(" :moneybag: PlannerDash")
     st.markdown('<style>div.block-container{padding-top:3rem;}</style>', unsafe_allow_html=True)
     for worker, objects in urls.items():
         st.write(worker)
